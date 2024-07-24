@@ -8,7 +8,7 @@ def main():
     df = reformat_date(df)
     
     # connect to PostgreSQL database
-    connection = pg.connect(host='192.168.1.61', dbname='portfolio', user='postgres', password = 'password', port=5432)
+    connection = pg.connect(host='', dbname='portfolio', user='postgres', password = 'password', port=5432)
     cursor = connection.cursor()   
     
     # prepare SQL syntax to execute
